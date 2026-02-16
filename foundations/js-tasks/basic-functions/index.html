@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function add7(number){
+            return number+7;
+        }
+        function multiply(num1, num2){
+            return num1*num2;
+        }
+        function capitalize(word){
+            return word[0].toUpperCase()+word.slice(1).toLowerCase();
+        }
+
+        function lastLetter(word){
+            return word.at(-1);
+        }
+
+        const name = 'frAnk';
+        console.log(capitalize(name));
+        console.log(lastLetter(name));
+        console.log(multiply(3,6));
+        console.log(add7(3));
+
+    </script>
+</body>
+</html>
